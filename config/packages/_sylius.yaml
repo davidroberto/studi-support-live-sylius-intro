@@ -264,3 +264,30 @@ sylius_ui:
                     template: "Shop/Homepage/_message.html.twig"
                     priority: 51
                 banner: false
+
+
+sylius_grid:
+    grids:
+        app_admin_page:
+            driver:
+                name: doctrine/orm
+                options:
+                    class: App\Entity\Page
+            fields:
+                title:
+                    type: string
+                    label: Titre
+                enabled:
+                    type: twig
+                    label: Activé
+                    options:
+                        template: "@SyliusUi/Grid/Field/enabled.html.twig"
+            actions:
+                main:
+                    create:
+                        type: create
+                item:
+                    update:
+                        type: update
+                    delete:
+                        type: delete

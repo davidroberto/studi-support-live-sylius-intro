@@ -261,6 +261,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/winzou/state-machine" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/winzou/state-machine-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/maker-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

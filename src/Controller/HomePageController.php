@@ -4,6 +4,7 @@
 namespace App\Controller;
 
 
+use App\Entity\Product\Product;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -19,4 +20,7 @@ class HomePageController extends AbstractController
             'message' => $message
         ]);
     }
+
+
+
 }
