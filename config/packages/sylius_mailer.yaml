@@ -1,0 +1,8 @@
+sylius_mailer:
+    sender:
+        name: Aropixel
+        address: sender@aropixel.com
+    emails:
+        address_sent:
+            subject: "N'oubliez pas de valider votre panier !"
+            template: "Email/address_sent.html.twig"

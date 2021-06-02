@@ -19,21 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d09a4599-7b69-4fa7-b5f5-d47a63103b58" name="Default Changelist" comment="LIVE #3: CUSTOM THEME SYLIUS">
-      <change afterPath="$PROJECT_DIR$/config/packages/sylius_resource.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu/AdminMenuListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studi-live-sylius.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studi-live-sylius.iml" afterDir="false" />
+    <list default="true" id="d09a4599-7b69-4fa7-b5f5-d47a63103b58" name="Default Changelist" comment="LIVE #3: SYLIUS RESSOURCE + SYLIUS GRID">
+      <change afterPath="$PROJECT_DIR$/config/packages/state_machine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmailSender/AddressEmailSender.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/_sylius.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/_sylius.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/sylius_admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/sylius_admin.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/sylius_shop.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/sylius_shop.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomePageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomePageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +357,8 @@
       <workItem from="1620891269323" duration="396000" />
       <workItem from="1621439368995" duration="4106000" />
       <workItem from="1621929353850" duration="6000" />
-      <workItem from="1622044606316" duration="4558000" />
+      <workItem from="1622044606316" duration="4603000" />
+      <workItem from="1622650007404" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="LIVE #3: CUSTOM THEME SYLIUS">
       <created>1622044978366</created>
@@ -375,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622044978366</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LIVE #3: SYLIUS RESSOURCE + SYLIUS GRID">
+      <created>1622049405865</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622049405865</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +394,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LIVE #3: CUSTOM THEME SYLIUS" />
-    <option name="LAST_COMMIT_MESSAGE" value="LIVE #3: CUSTOM THEME SYLIUS" />
+    <MESSAGE value="LIVE #3: SYLIUS RESSOURCE + SYLIUS GRID" />
+    <option name="LAST_COMMIT_MESSAGE" value="LIVE #3: SYLIUS RESSOURCE + SYLIUS GRID" />
   </component>
 </project>
